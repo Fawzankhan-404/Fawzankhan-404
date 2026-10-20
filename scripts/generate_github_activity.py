@@ -61,20 +61,28 @@ def main():
     collection = data["user"]["contributionsCollection"]
     calendar = collection["contributionCalendar"]
     days = [day for week in calendar["weeks"] for day in week["contributionDays"]]
-    if len(days) < 360:
+    parsed_days = [(dt.date.fromisoformat(day["date"]), int(day["contributionCount"]))
+                   for day in days]
+    counts = dict(parsed_days)
+    if len(counts) != len(parsed_days):
+        raise ValueError("Duplicate dates in GitHub contribution calendar; keeping previous artwork")
+    if not counts or len(counts) < 360:
         raise ValueError("Incomplete 365-day contribution calendar; keeping previous artwork")
-    counts = {dt.date.fromisoformat(day["date"]): int(day["contributionCount"]) for day in days}
+    if any(value < 0 for value in counts.values()):
+        raise ValueError("Negative contribution count returned by GitHub; keeping previous artwork")
+    total = int(calendar["totalContributions"])
+    if sum(counts.values()) != total:
+        raise ValueError("Daily contributions do not match GitHub's calendar total; keeping previous artwork")
     first = min(counts)
     first -= dt.timedelta(days=(first.weekday() + 1) % 7)
     last = max(counts)
     weeks = (last - first).days // 7 + 1
     split = (weeks + 1) // 2
     active = sum(value > 0 for value in counts.values())
-    total = int(calendar["totalContributions"])
-    profile_visible = bool(profile_token)
+    profile_visible = bool(profile_token and collection["hasAnyRestrictedContributions"])
     scope = "PROFILE-VISIBLE CONTRIBUTIONS" if profile_visible else "PUBLIC-ONLY CONTRIBUTIONS"
-    note = ("Private counts appear only when enabled in GitHub profile settings"
-            if profile_visible else "Public contributions only · private activity is not included")
+    note = ("Includes shared private counts · details remain private"
+            if profile_visible else "Public-only data · private counts are not included")
     p = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" height="620" viewBox="0 0 680 620" role="img">
 <title>{html.escape(scope.title())} over the last 365 days</title>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090c14"/><stop offset=".55" stop-color="#11101a"/><stop offset="1" stop-color="#190b14"/></linearGradient>
