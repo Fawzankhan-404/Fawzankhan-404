@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./itachi-eternal-crimson-master.svg" width="100%" alt="Cinematic crimson autumn illustration inspired by Itachi Uchiha" />
+<img src="./itachi-autumn-hd.jpg" width="100%" alt="Cinematic crimson autumn illustration inspired by Itachi Uchiha" />
 
-<img src="./visuals/ui-crimson-intro.svg" width="100%" alt="Fawzan Khan - Tsukuyomi-inspired animated crimson introduction" />
+<picture><source srcset="./visuals/ui-crimson-intro.gif" type="image/gif" /><img src="./visuals/ui-crimson-intro.svg" width="100%" alt="Fawzan Khan - Tsukuyomi-inspired crimson introduction" /></picture>
 
 **AI & Software Developer · Open Source · Automation**
 
@@ -18,7 +18,7 @@
 
 I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Science student at Poona College, Pune (2024–2027)**. I build AI assistants, integration tools, privacy-focused communication products, learning experiences and everyday automation, with an interest in making technology genuinely useful.
 
-<img src="./visuals/ui-missions.svg" width="100%" alt="The Missions - animated Itachi Mangekyo Sharingan" />
+<picture><source srcset="./visuals/ui-missions.gif" type="image/gif" /><img src="./visuals/ui-missions.svg" width="100%" alt="The Missions - Itachi Mangekyo Sharingan" /></picture>
 
 ### Featured software
 
@@ -53,7 +53,7 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 </details>
 
-<img src="./visuals/ui-arsenal.svg" width="100%" alt="The Arsenal - animated three tomoe Sharingan" />
+<picture><source srcset="./visuals/ui-arsenal.gif" type="image/gif" /><img src="./visuals/ui-arsenal.svg" width="100%" alt="The Arsenal - three tomoe Sharingan" /></picture>
 
 <div align="center">
 
@@ -71,26 +71,24 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 | **Other interests** | Data visualization, structured analysis, machine learning workflows, secure coding, network security fundamentals |
 | **Languages** | English — fluent; Roman Urdu — fluent |
 
-<img src="./visuals/ui-chronicle.svg" width="100%" alt="GitHub activity section" />
+<picture><source srcset="./visuals/ui-chronicle.gif" type="image/gif" /><img src="./visuals/ui-chronicle.svg" width="100%" alt="GitHub activity section" /></picture>
 
 <div align="center">
 
-**Public contribution activity · Updated automatically from GitHub**
+**GitHub contribution activity · Updated hourly**
 
 [**GitHub profile statistics →**](https://github.com/Fawzankhan-404)
 [**Explore repository languages →**](https://github.com/Fawzankhan-404?tab=repositories)
 
 <a href="https://github.com/Fawzankhan-404"><img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="GitHub contribution activity calendar and summary" /></a>
 
-<sub>The artwork reflects **publicly accessible contributions**, which can be lower than the total displayed on my GitHub profile if private contributions are included. It refreshes from GitHub GraphQL hourly (subject to Actions and image caching). For the latest information, open the [GitHub contributions](https://github.com/Fawzankhan-404) directly.</sub>
+<sub>Public-only contribution data. An optional repository secret with GitHub’s `read:user` scope can include private and internal counts when enabled in profile settings. Updated hourly, subject to Actions and image caching. [View the live calendar](https://github.com/Fawzankhan-404).</sub>
 
 
 
 </div>
 
-<a href="https://raw.githubusercontent.com/Fawzankhan-404/Fawzankhan-404/main/visuals/ui-journey.svg"><img src="./visuals/ui-journey.svg" width="100%" alt="Experience — animated crimson header" /></a>
-
-<sub>[Open the Experience banner directly](https://raw.githubusercontent.com/Fawzankhan-404/Fawzankhan-404/main/visuals/ui-journey.svg) if the embedded image does not load.</sub>
+<a href="https://github.com/Fawzankhan-404/Fawzankhan-404/blob/main/visuals/ui-journey.svg"><picture><source srcset="./visuals/ui-journey.gif" type="image/gif" /><img src="./visuals/ui-journey.svg" width="100%" alt="Experience — crimson header" /></picture></a>
 
 ### Experience
 
@@ -105,13 +103,13 @@ Software development internship.
 **B.Sc. Computer Science — Poona College, Pune** · 2024–2027  
 Relevant coursework: Data Structures, Algorithms, Web Development, Cybersecurity, Database Management.
 
-<img src="./visuals/ui-recognition.svg" width="100%" alt="Certifications and Recognition - animated Itachi Mangekyo Sharingan" />
+<picture><source srcset="./visuals/ui-recognition.gif" type="image/gif" /><img src="./visuals/ui-recognition.svg" width="100%" alt="Certifications and Recognition - Itachi Mangekyo Sharingan" /></picture>
 
 **Certifications:** Python for Data Science (Coursera); Web Security Fundamentals (freeCodeCamp); JavaScript Algorithms and Data Structures.
 
 **Recognition:** IoT Course by IAO-USA Accredited Courses — **#1 rank**; Technovate for India — **Top 5**; Aavishkar 2024 zonal-level research competition — **#17 in Pure Science** and **#20 in Humanities**.
 
-<img src="./visuals/ui-models.svg" width="100%" alt="Jarvis404 LLM Family - animated three tomoe Sharingan" />
+<picture><source srcset="./visuals/ui-models.gif" type="image/gif" /><img src="./visuals/ui-models.svg" width="100%" alt="Jarvis404 LLM Family - three tomoe Sharingan" /></picture>
 
 The **Jarvis404 LLM family** explores more personal AI dialogue, emotional awareness and reflective interactions through local models.
 
@@ -124,7 +122,7 @@ The **Jarvis404 LLM family** explores more personal AI dialogue, emotional aware
 
 *The Ollama links open model pages, not in-browser chat demos.*
 
-<img src="./visuals/ui-training.svg" width="100%" alt="AI Training - passing the flame animated Mangekyo Sharingan" />
+<picture><source srcset="./visuals/ui-training.gif" type="image/gif" /><img src="./visuals/ui-training.svg" width="100%" alt="AI Training - passing the flame Mangekyo Sharingan" /></picture>
 
 ### Jarvis404 Academy
 
@@ -132,7 +130,7 @@ I help students and beginners explore AI, programming, automation, and project b
 
 [**Explore Academy →**](https://courses.jarvis404.com/) · [**AI Developer Bootcamp →**](https://courses.jarvis404.com/courses/ai-developer-bootcamp) · [**Discuss a workshop →**](https://fawzankhan-404.github.io/#contact)
 
-<img src="./visuals/ui-contact.svg" width="100%" alt="The Next Mission - Tsukuyomi inspired contact banner" />
+<picture><source srcset="./visuals/ui-contact.gif" type="image/gif" /><img src="./visuals/ui-contact.svg" width="100%" alt="The Next Mission - Tsukuyomi inspired contact banner" /></picture>
 
 <div align="center">
 
@@ -140,7 +138,7 @@ I help students and beginners explore AI, programming, automation, and project b
 
 [**EMAIL**](mailto:jarvis404.dev@gmail.com) · [**GITHUB**](https://github.com/Fawzankhan-404) · [**INSTAGRAM**](https://www.instagram.com/fawzan._x1/) · [**PORTFOLIO**](https://fawzankhan-404.github.io/)
 
-<img src="./visuals/ui-end.svg" width="100%" alt="Build quietly. Ship thoughtfully - animated Itachi Mangekyo Sharingan" />
+<picture><source srcset="./visuals/ui-end.gif" type="image/gif" /><img src="./visuals/ui-end.svg" width="100%" alt="Build quietly. Ship thoughtfully - Itachi Mangekyo Sharingan" /></picture>
 
 <sub>© 2026 Fawzan Khan · Itachi Uchiha-inspired independent fan-art profile</sub>
 
