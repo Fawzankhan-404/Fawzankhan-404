@@ -75,14 +75,14 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 <div align="center">
 
-**Contribution activity · Updated automatically from GitHub**
+**Public contribution activity · Updated automatically from GitHub**
 
 [**GitHub profile statistics →**](https://github.com/Fawzankhan-404)
 [**Explore repository languages →**](https://github.com/Fawzankhan-404?tab=repositories)
 
 <a href="https://github.com/Fawzankhan-404"><img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="GitHub contribution activity calendar and summary" /></a>
 
-<sub>The activity artwork refreshes from GitHub GraphQL on an hourly schedule (subject to Actions and image caching). For the latest information, open the [GitHub contributions](https://github.com/Fawzankhan-404) directly.</sub>
+<sub>The artwork reflects **publicly accessible contributions**, which can be lower than the total displayed on my GitHub profile if private contributions are included. It refreshes from GitHub GraphQL hourly (subject to Actions and image caching). For the latest information, open the [GitHub contributions](https://github.com/Fawzankhan-404) directly.</sub>
 
 
 
