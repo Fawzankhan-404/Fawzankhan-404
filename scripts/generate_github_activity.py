@@ -92,41 +92,58 @@ def main():
 <path d="M25 133 H655 M25 573 H655" stroke="#49202d"/>
 <text x="38" y="48" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#f16b84">GITHUB / CONTRIBUTIONS</text>
 <text x="38" y="91" font-family="Arial,sans-serif" font-size="28" font-weight="800" fill="#f3e9ee">Activity over time</text>
-<text x="40" y="117" font-family="Arial,sans-serif" font-size="12" fill="#bdaab4">Last 365 days · official GitHub contribution calendar</text>
+<text x="40" y="117" font-family="Arial,sans-serif" font-size="12" fill="#bdaab4">One year of activity · each column is a week</text>
 <text x="493" y="74" font-family="Arial,sans-serif" font-size="29" font-weight="800" fill="#ff6c83">{total}</text>
 <text x="493" y="96" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#c0a9b4">{html.escape(scope)}</text>
 <text x="493" y="116" font-family="Arial,sans-serif" font-size="10" fill="#9b8895">{active} active days</text>''']
 
+    # Split the year into two chronological rows. Month labels are anchored to
+    # the first day of each month (rather than the middle of its week), keeping
+    # transitions such as APR / MAY visually distinct.
+    month_labels = {}
+    for week in range(weeks):
+        week_start = first + dt.timedelta(days=week * 7)
+        for offset in range(7):
+            current = week_start + dt.timedelta(days=offset)
+            if current in counts and current.day == 1:
+                month_labels[week] = current.strftime("%b").upper()
+                break
+
     # Keep each half of the 53-week calendar at a readable width on narrow screens.
     for panel, (start_week, end_week) in enumerate(((0, split), (split, weeks))):
-        top = 190 if panel == 0 else 405
-        previous_month = None
+        top = 192 if panel == 0 else 393
+        row_first = first + dt.timedelta(days=start_week * 7)
+        row_last = min(last, first + dt.timedelta(days=end_week * 7 - 1))
+        p.append(f'<text x="38" y="{top+7}" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#9b8895">{row_first.strftime("%b").upper()} — {row_last.strftime("%b").upper()}</text>')
         for week in range(start_week, end_week):
             date = first + dt.timedelta(days=week * 7)
-            mid = date + dt.timedelta(days=3)
             column = week - start_week
             x = 68 + column * 20.1
-            if mid.month != previous_month or column == 0:
-                p.append(f'<text x="{x:.1f}" y="{top-13}" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#c0a9b4">{mid.strftime("%b").upper()}</text>')
-                previous_month = mid.month
+            if week in month_labels:
+                label = month_labels[week]
+                p.append(f'<text x="{x:.1f}" y="{top+22}" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#bdaab4">{label}</text>')
             for day in range(7):
                 current = date + dt.timedelta(days=day)
-                if current > last:
+                if current > last or current not in counts:
                     continue
                 value = counts.get(current, 0)
                 xday = x
-                y = top + day * 21
+                y = top + 42 + day * 20
                 if value == 0:
-                    p.append(f'<rect x="{xday:.1f}" y="{y}" width="14" height="14" rx="3" fill="#231724" stroke="#492b3d" stroke-width=".7"/>')
+                    p.append(f'<rect x="{xday:.1f}" y="{y}" width="12" height="12" rx="3" fill="#241a25" stroke="#513047" stroke-width=".7"><title>{current.isoformat()}: no contributions</title></rect>')
                 else:
                     level = 1 if value == 1 else 2 if value < 4 else 3 if value < 8 else 4
                     palette = ("#231724", "#8f2945", "#b72f50", "#e04365", "#ff6981")
-                    p.append(f'<rect x="{xday:.1f}" y="{y}" width="14" height="14" rx="3" fill="{palette[level]}"/>')
-        if panel == 0:
-            for day, letter in enumerate(("S", "M", "T", "W", "T", "F", "S")):
-                p.append(f'<text x="43" y="{top + day*21 + 11}" font-family="Arial,sans-serif" font-size="9" fill="#9b8895">{letter}</text>')
+                    p.append(f'<rect x="{xday:.1f}" y="{y}" width="12" height="12" rx="3" fill="{palette[level]}"><title>{current.isoformat()}: {value} contributions</title></rect>')
+        for day, letter in enumerate(("S", "M", "T", "W", "T", "F", "S")):
+            y = top + 42 + day * 20 + 9
+            p.append(f'<text x="43" y="{y}" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#9b8895">{letter}</text>')
 
-    p.append(f'''<text x="38" y="600" font-family="Arial,sans-serif" font-size="10" fill="#bdaab4">{html.escape(note)} · hourly refresh</text>
+    p.append(f'''<text x="38" y="587" font-family="Arial,sans-serif" font-size="10" fill="#bdaab4">Less</text>
+<rect x="68" y="578" width="12" height="12" rx="3" fill="#241a25" stroke="#513047" stroke-width=".7"/><rect x="88" y="578" width="12" height="12" rx="3" fill="#8f2945"/><rect x="108" y="578" width="12" height="12" rx="3" fill="#b72f50"/><rect x="128" y="578" width="12" height="12" rx="3" fill="#e04365"/><rect x="148" y="578" width="12" height="12" rx="3" fill="#ff6981"/>
+<text x="169" y="587" font-family="Arial,sans-serif" font-size="10" fill="#bdaab4">More</text>
+<text x="245" y="587" font-family="Arial,sans-serif" font-size="10" fill="#9b8895">Each square is one day · brighter means more activity</text>
+<text x="38" y="608" font-family="Arial,sans-serif" font-size="9" fill="#9b8895">{html.escape(note)} · updated hourly</text>
 <rect x="1" y="1" width="678" height="618" rx="16" fill="none" stroke="#713044"/></g></svg>''')
     svg = "".join(p)
     import xml.etree.ElementTree as ET
