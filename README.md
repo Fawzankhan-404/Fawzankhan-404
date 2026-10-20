@@ -1,100 +1,69 @@
 <div align="center">
 
-<img src="./itachi-eternal-crimson-master.svg" alt="Itachi Uchiha — cinematic crimson autumn with animated maple leaves and atmospheric effects" width="100%" />
+<img src="./itachi-eternal-crimson-master.svg" width="100%" alt="Cinematic Itachi Uchiha in crimson autumn" />
 
-<br/>
+<img src="./visuals/ui-crimson-intro.svg" width="100%" alt="Animated crimson title: Fawzan Khan, developer, AI integrations, automation and open source" />
 
-# FAWZAN KHAN
+<p><strong>Developer · AI Integrations · Automation · Open Source</strong></p>
 
-**Developer · AI Integrations · Automation · Open Source**
+<p><em>A quiet presence. A relentless pursuit of better work.</em></p>
 
-*A quiet presence. A relentless pursuit of better work.*
-
-[**Explore Classroom Desk**](https://github.com/Fawzankhan-404/Classroom-Desk) &nbsp;·&nbsp; [**Portfolio**](https://fawzankhan-404.github.io/) &nbsp;·&nbsp; [**Repositories**](https://github.com/Fawzankhan-404?tab=repositories)
-
-</div>
-
----
-
-### 01 / THE WORK
-
-I build software that connects systems and removes friction from everyday workflows. My interests span **AI integrations, developer tools, web engineering, and automation** — with an emphasis on projects people can actually use.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### [Classroom Desk →](https://github.com/Fawzankhan-404/Classroom-Desk)
-
-**Google Classroom × ChatGPT × MCP**
-
-An independent, open-source integration designed to bring classroom information into natural-language workflows.
-
-`MCP` `Google Classroom` `AI Integrations`
-
-</td>
-<td width="50%" valign="top">
-
-#### [Edu-Insight →](https://github.com/Fawzankhan-404/Edu-Insight)
-
-**Education technology**
-
-A project exploring education-focused software. See the repository for the current implementation.
-
-`EdTech` `Software`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-#### [Data_set_maker →](https://github.com/Fawzankhan-404/Data_set_maker)
-
-**Developer tooling**
-
-A public project from my development portfolio.
-
-`Tools` `Open Source`
-
-</td>
-<td valign="top">
-
-#### [More projects →](https://github.com/Fawzankhan-404?tab=repositories)
-
-**Experiments & shipped work**
-
-Explore my other public repositories and the systems I'm building.
-
-`Engineering` `Experiments`
-
-</td>
-</tr>
-</table>
-
-### 02 / THE TOOLKIT
-
-<div align="center">
-
-`JavaScript` &nbsp; `TypeScript` &nbsp; `Python` &nbsp; `Cloudflare` &nbsp; `Model Context Protocol` &nbsp; `Google APIs`
+<a href="https://github.com/Fawzankhan-404/Classroom-Desk">EXPLORE CLASSROOM DESK</a>
+&nbsp; · &nbsp;
+<a href="https://fawzankhan-404.github.io/">PORTFOLIO</a>
+&nbsp; · &nbsp;
+<a href="https://github.com/Fawzankhan-404?tab=repositories">ALL REPOSITORIES</a>
 
 </div>
 
-### 03 / THE CONTRIBUTION CHRONICLE
+<br />
+
+<img src="./visuals/ui-missions.svg" width="100%" alt="Animated heading — 01 The Missions" />
+
+I build software that connects systems and removes friction from everyday workflows. My focus is on **useful, working projects** rather than invented metrics or flashy claims.
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Isometric 3D GitHub contribution calendar, generated from real activity" />
+<a href="https://github.com/Fawzankhan-404/Classroom-Desk"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Fawzankhan-404&repo=Classroom-Desk&theme=dark&bg_color=0a0b12&title_color=ee536a&text_color=ded6df&icon_color=d6425a&border_color=662338" alt="Classroom Desk repository card" width="49%" /></a>
+<a href="https://github.com/Fawzankhan-404/Edu-Insight"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Fawzankhan-404&repo=Edu-Insight&theme=dark&bg_color=0a0b12&title_color=ee536a&text_color=ded6df&icon_color=d6425a&border_color=662338" alt="Edu-Insight repository card" width="49%" /></a>
 
-<sub>Real contribution activity · Generated automatically by GitHub Actions</sub>
+<a href="https://github.com/Fawzankhan-404/Data_set_maker"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Fawzankhan-404&repo=Data_set_maker&theme=dark&bg_color=0a0b12&title_color=ee536a&text_color=ded6df&icon_color=d6425a&border_color=662338" alt="Data set maker repository card" width="49%" /></a>
+<a href="https://github.com/Fawzankhan-404?tab=repositories"><img src="https://github-readme-stats.vercel.app/api?username=Fawzankhan-404&show_icons=true&hide_rank=true&hide=stars&theme=dark&bg_color=0a0b12&title_color=ee536a&text_color=ded6df&icon_color=d6425a&border_color=662338" alt="Public GitHub activity summary" width="49%" /></a>
 
 </div>
 
----
+<br />
+
+<img src="./visuals/ui-arsenal.svg" width="100%" alt="Animated heading — 02 The Arsenal" />
 
 <div align="center">
 
-**BUILD QUIETLY. SHIP THOUGHTFULLY.**
+<img src="https://skillicons.dev/icons?i=js,ts,python,html,css,react,nodejs,git,github,cloudflare&theme=dark&perline=10" alt="Technology icons for JavaScript, TypeScript, Python, HTML, CSS, React, Node.js, Git, GitHub and Cloudflare" />
 
-<sub>© Fawzan Khan · Inspired by Itachi Uchiha · Artwork created for this profile</sub>
+<br />
+
+**MCP · Google APIs · AI integrations · Web engineering**
+
+</div>
+
+<br />
+
+<img src="./visuals/ui-chronicle.svg" width="100%" alt="Animated heading — 03 The Chronicle" />
+
+<div align="center">
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Generated isometric 3D GitHub contribution calendar" />
+
+<sub>Real GitHub activity · 3D visualization generated by GitHub Actions</sub>
+
+</div>
+
+<br />
+
+<div align="center">
+
+<img src="./visuals/ui-end.svg" width="100%" alt="Animated footer — Build quietly. Ship thoughtfully." />
+
+<sub>© Fawzan Khan · Itachi Uchiha-inspired visual theme</sub>
 
 </div>
