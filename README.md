@@ -69,7 +69,7 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
   <a href="https://nodejs.org/"><img src="./visuals/tech-icons/nodejs.svg" width="42" height="42" alt="Node.js" title="Node.js" /></a>&nbsp;&nbsp;
   <a href="https://firebase.google.com/"><img src="./visuals/tech-icons/firebase.svg" width="42" height="42" alt="Firebase" title="Firebase" /></a>&nbsp;&nbsp;
   <a href="https://git-scm.com/"><img src="./visuals/tech-icons/git.svg" width="42" height="42" alt="Git" title="Git" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/"><img src="./visuals/tech-icons/github.svg" width="42" height="42" alt="GitHub" title="GitHub" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/"><img src="./visuals/tech-icons/github-light.svg" width="42" height="42" alt="GitHub" title="GitHub" /></a>&nbsp;&nbsp;
   <a href="https://code.visualstudio.com/"><img src="./visuals/tech-icons/vscode.svg" width="42" height="42" alt="Visual Studio Code" title="Visual Studio Code" /></a>&nbsp;&nbsp;
   <a href="https://jupyter.org/"><img src="./visuals/tech-icons/jupyter.svg" width="42" height="42" alt="Jupyter Notebook" title="Jupyter Notebook" /></a>
 </p>
