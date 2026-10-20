@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./itachi-crimson-animated.svg" alt="Itachi Uchiha — cinematic crimson autumn with animated maple leaves and atmospheric effects" width="100%" />
+<img src="./itachi-eternal-crimson-master.svg" alt="Itachi Uchiha — cinematic crimson autumn with animated maple leaves and atmospheric effects" width="100%" />
 
 <br/>
 
@@ -8,7 +8,7 @@
 
 **Developer · AI Integrations · Automation · Open Source**
 
-*“Those who cannot acknowledge themselves will eventually fail.” — Itachi Uchiha*
+*A quiet presence. A relentless pursuit of better work.*
 
 [**Explore Classroom Desk**](https://github.com/Fawzankhan-404/Classroom-Desk) &nbsp;·&nbsp; [**Portfolio**](https://fawzankhan-404.github.io/) &nbsp;·&nbsp; [**Repositories**](https://github.com/Fawzankhan-404?tab=repositories)
 
@@ -79,7 +79,7 @@ Explore my other public repositories and the systems I'm building.
 
 </div>
 
-### 03 / THE SHADOW OF CONSISTENCY
+### 03 / THE CONTRIBUTION CHRONICLE
 
 <div align="center">
 
