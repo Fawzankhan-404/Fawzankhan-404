@@ -11,6 +11,7 @@ from urllib.request import Request, urlopen
 
 USER = "Fawzankhan-404"
 TARGET = Path("profile-3d-contrib/profile-night-rainbow.svg")
+VERSIONED_PREFIX = "profile-night-rainbow-"
 README = Path("README.md")
 QUERY = """query($name:String!, $from:DateTime!, $to:DateTime!) {
   viewer { login }
@@ -127,12 +128,25 @@ def main():
     if svg_changed:
         TARGET.write_text(svg, encoding="utf-8")
 
-    # GitHub's image proxy caches README images by URL. Change the URL only when
-    # the generated chart changes, so the refreshed content is fetched promptly.
+    # GitHub's README image proxy kept serving stale bytes despite a changed
+    # query string. Use a content-versioned filename as the cache key, and keep
+    # only the current version in the repository.
     version = hashlib.sha256(svg.encode("utf-8")).hexdigest()[:12]
+    versioned_target = TARGET.with_name(f"{VERSIONED_PREFIX}{version}.svg")
+    if not versioned_target.exists() or versioned_target.read_text(encoding="utf-8") != svg:
+        versioned_target.write_text(svg, encoding="utf-8")
+    for stale in TARGET.parent.glob(f"{VERSIONED_PREFIX}*.svg"):
+        if stale != versioned_target:
+            stale.unlink()
     readme = README.read_text(encoding="utf-8")
-    image_pattern = re.compile(r'(<img src="\./profile-3d-contrib/profile-night-rainbow\.svg)(?:\?v=[0-9a-f]+)?(")')
-    readme_updated, replacements = image_pattern.subn(rf'\1?v={version}\2', readme)
+    image_pattern = re.compile(
+        r'(<img src="\./profile-3d-contrib/)'
+        r'(?:profile-night-rainbow(?:-[0-9a-f]{12})?\.svg(?:\?v=[0-9a-f]+)?)'
+        r'(")'
+    )
+    readme_updated, replacements = image_pattern.subn(
+        rf'\1{versioned_target.name}\2', readme
+    )
     if replacements != 1:
         raise RuntimeError("Expected exactly one contribution image reference in README")
     readme_changed = readme_updated != readme
