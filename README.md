@@ -4,7 +4,7 @@
 
 <img src="./visuals/ui-crimson-intro.svg" width="100%" alt="Fawzan Khan - Tsukuyomi-inspired animated crimson introduction" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=ED546B&center=true&vCenter=true&width=850&lines=AI+%26+Software+Developer;Building+AI+Assistants+%26+Automation;Open-Source+Developer+Tools;Learning+by+Building" alt="Animated introduction describing Fawzan's work" />
+**AI & Software Developer · Open Source · Automation**
 
 *Building useful AI-powered applications, privacy-minded software and practical digital tools from Pune, India.*
 
@@ -57,7 +57,7 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,js,c,html,css,react,nodejs,firebase,git,github,vscode&theme=dark&perline=11" alt="Programming and developer tool icons" />
+**Python · JavaScript · C · HTML · CSS · React · Node.js · Firebase · SQL · Git · GitHub · VS Code**
 
 </div>
 
@@ -77,21 +77,14 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 **Public contributions and repository activity**
 
-<img src="https://github-readme-stats.vercel.app/api?username=Fawzankhan-404&show_icons=true&include_all_commits=true&hide_rank=true&theme=transparent&title_color=f16377&text_color=e7d8e2&icon_color=f16377&border_color=74263b&cache_seconds=3600" width="49%" alt="Live-source GitHub public activity statistics" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fawzankhan-404&layout=compact&theme=transparent&title_color=f16377&text_color=e7d8e2&border_color=74263b&cache_seconds=3600" width="49%" alt="GitHub language distribution based on repository contents" />
+[**GitHub profile statistics →**](https://github.com/Fawzankhan-404)
+[**Explore repository languages →**](https://github.com/Fawzankhan-404?tab=repositories)
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Fawzankhan-404&bg_color=0b0b12&color=f1a2ae&line=ee425f&point=ffffff&area=true&area_color=671427&hide_border=true&custom_title=Contribution%20Signal" width="100%" alt="Dynamically generated GitHub public contribution activity graph" />
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution graph generated from GitHub activity" />
 
-<sub>Stats are requested from GitHub-backed image providers and may be cached. The contribution graph is based on the data available to its provider, not a second-by-second feed.</sub>
+<sub>Contribution visualization is generated from GitHub activity by the scheduled workflow. Visit the GitHub profile for the latest contribution counts.</sub>
 
-<details>
-<summary><b>View the generated 3D contribution chronicle</b></summary>
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Generated 3D contribution calendar" />
-
-<sub>3D GitHub contribution illustration, regenerated daily via GitHub Actions.</sub>
-
-</details>
 
 </div>
 
