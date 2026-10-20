@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """Build a responsive contribution calendar from GitHub's official GraphQL API."""
 import datetime as dt
+import hashlib
 import html
 import json
+import re
 import os
 from pathlib import Path
 from urllib.request import Request, urlopen
 
 USER = "Fawzankhan-404"
 TARGET = Path("profile-3d-contrib/profile-night-rainbow.svg")
+README = Path("README.md")
 QUERY = """query($name:String!, $from:DateTime!, $to:DateTime!) {
   viewer { login }
   user(login:$name) { contributionsCollection(from:$from, to:$to) {
@@ -120,12 +123,27 @@ def main():
     import xml.etree.ElementTree as ET
     ET.fromstring(svg)
     TARGET.parent.mkdir(parents=True, exist_ok=True)
-    if TARGET.exists() and TARGET.read_text(encoding="utf-8") == svg:
-        print("Contribution data unchanged")
-    else:
+    svg_changed = not TARGET.exists() or TARGET.read_text(encoding="utf-8") != svg
+    if svg_changed:
         TARGET.write_text(svg, encoding="utf-8")
+
+    # GitHub's image proxy caches README images by URL. Change the URL only when
+    # the generated chart changes, so the refreshed content is fetched promptly.
+    version = hashlib.sha256(svg.encode("utf-8")).hexdigest()[:12]
+    readme = README.read_text(encoding="utf-8")
+    image_pattern = re.compile(r'(<img src="\./profile-3d-contrib/profile-night-rainbow\.svg)(?:\?v=[0-9a-f]+)?(")')
+    readme_updated, replacements = image_pattern.subn(rf'\1?v={version}\2', readme)
+    if replacements != 1:
+        raise RuntimeError("Expected exactly one contribution image reference in README")
+    readme_changed = readme_updated != readme
+    if readme_changed:
+        README.write_text(readme_updated, encoding="utf-8")
+
+    if svg_changed or readme_changed:
         mode = "profile-visible" if profile_visible else "public-only"
         print(f"Updated contribution artwork: {total} {mode} contributions across 365 days, {active} active days")
+    else:
+        print("Contribution data unchanged; no files need updating")
 
 
 if __name__ == "__main__":

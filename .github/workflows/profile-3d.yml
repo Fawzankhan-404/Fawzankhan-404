@@ -42,7 +42,7 @@ jobs:
             base="$(git rev-parse origin/main)"
             git reset --hard "$base"
             python scripts/generate_github_activity.py
-            git add profile-3d-contrib/profile-night-rainbow.svg
+            git add README.md profile-3d-contrib/profile-night-rainbow.svg
             if git diff --cached --quiet; then
               echo "Contribution data unchanged; no commit needed"
               exit 0
