@@ -46,9 +46,9 @@ def main():
     <path d="M25 130 H1175 M25 424 H1175" stroke="#49202d"/>
     <text x="42" y="51" font-family="Arial" font-size="12" font-weight="700" letter-spacing="4" fill="#f16b84">GITHUB / CONTRIBUTIONS</text>
     <text x="40" y="97" font-family="Arial" font-size="33" font-weight="800" fill="#f3e9ee">Activity over time</text>
-    <text x="44" y="119" font-family="Arial" font-size="12" fill="#a7929e">Last 12 months of GitHub contributions</text>''']
+    <text x="44" y="119" font-family="Arial" font-size="12" fill="#a7929e">Last 12 months of publicly accessible contributions</text>''']
     p.extend([f'<text x="767" y="69" font-family="Arial" font-size="33" font-weight="800" fill="#ff6c83">{total}</text>',
-        '<text x="767" y="93" font-family="Arial" font-size="11" fill="#ae9ba8">YEARLY CONTRIBUTIONS</text>',
+        '<text x="767" y="93" font-family="Arial" font-size="11" fill="#ae9ba8">PUBLIC CONTRIBUTIONS</text>',
         f'<text x="1015" y="69" font-family="Arial" font-size="33" font-weight="800" fill="#ff6c83">{active}</text>',
         '<text x="1015" y="93" font-family="Arial" font-size="11" fill="#ae9ba8">ACTIVE DAYS</text>'])
     previous = None
@@ -76,7 +76,7 @@ def main():
                 p.append(f'<rect x="{x:.1f}" y="{yt:.1f}" width="14.4" height="{h:.1f}" fill="{color}" opacity=".72"/>')
                 p.append(f'<path d="M{x+14.4:.1f} {yt:.1f} l3 -2.8 v{h:.1f} l-3 2.8Z" fill="#65172e"/>')
                 p.append(f'<path d="M{x:.1f} {yt:.1f} l3 -2.8 h14.4 l-3 2.8Z" fill="{color}" stroke="#ffa1ae" stroke-opacity=".28" stroke-width=".55"/>')
-    p.append('<text x="45" y="451" font-family="Arial" font-size="11" fill="#9b8895">OFFICIAL GITHUB DATA · AUTOMATIC HOURLY REFRESH</text>')
+    p.append('<text x="45" y="451" font-family="Arial" font-size="11" fill="#9b8895">PUBLIC GITHUB DATA · HOURLY REFRESH</text>')
     p.append('<text x="928" y="451" font-family="Arial" font-size="11" fill="#9b8895">LESS</text>')
     for i,color in enumerate(palette):
         p.append(f'<rect x="{967+i*17}" y="439" width="13" height="13" rx="2" fill="{color}"/>')
@@ -92,7 +92,7 @@ def main():
         print("Contribution data unchanged")
     else:
         TARGET.write_text(svg,encoding="utf-8")
-        print(f"Updated {TARGET}: {total} contributions, {active} active days")
+        print(f"Updated {TARGET}: {total} publicly visible contributions, {active} active days")
 
 if __name__=="__main__":
     main()
