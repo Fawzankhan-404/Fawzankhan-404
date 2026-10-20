@@ -22,32 +22,36 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 ### Featured software
 
-| Project | What it does |
-|:--|:--|
-| **[Classroom Desk](https://github.com/Fawzankhan-404/Classroom-Desk)** | Open-source Google Classroom × ChatGPT integration through the Model Context Protocol (MCP) |
-| **[Jarvis404](https://fawzankhan-404.github.io/#projects)** | Personal AI assistant exploring natural computer interaction and automation |
-| **[ConnectPeace](https://fawzankhan-404.github.io/#projects)** | Privacy-focused communication platform designed for more discreet digital connection |
-| **[Sarah AI](https://fawzankhan-404.github.io/#projects)** | Conversational AI assistant exploring natural voice interaction |
-| **[JUST SPEAK](https://fawzankhan-404.github.io/#projects)** | AI-supported English-speaking practice through natural conversation |
-| **[Edu-Insight](https://github.com/Fawzankhan-404/Edu-Insight)** | Education-focused software project |
-| **[Data_set_maker](https://github.com/Fawzankhan-404/Data_set_maker)** | Dataset-development and tooling project |
+- **[Classroom Desk](https://github.com/Fawzankhan-404/Classroom-Desk)** <sub>OPEN SOURCE · EDUCATION · MCP</sub><br/>Google Classroom × ChatGPT integration for working with classroom information.
+- **[Jarvis404](https://fawzankhan-404.github.io/#projects)** <sub>PERSONAL AI · AUTOMATION</sub><br/>Personal assistant exploring natural computer interaction and useful automation.
+- **[ConnectPeace](https://fawzankhan-404.github.io/#projects)** <sub>PRIVACY · COMMUNICATION</sub><br/>Privacy-focused communication designed for more discreet digital connection.
+- **[Sarah AI](https://fawzankhan-404.github.io/#projects)** <sub>CONVERSATIONAL AI · VOICE</sub><br/>Conversational assistant exploring natural voice interaction.
+- **[JUST SPEAK](https://fawzankhan-404.github.io/#projects)** <sub>LEARNING · SPEECH</sub><br/>AI-supported English-speaking practice through natural conversation.
+- **[Edu-Insight](https://github.com/Fawzankhan-404/Edu-Insight)** <sub>EDUCATION</sub><br/>Education-focused software project.
+- **[Data_set_maker](https://github.com/Fawzankhan-404/Data_set_maker)** <sub>DATA · DEVELOPER TOOLS</sub><br/>Dataset-development and tooling project.
 
 <details>
 <summary><b>Explore more projects and earlier experiments</b></summary>
 
 <br/>
 
-| Project | Focus |
-|:--|:--|
-| **AI Token Cost Planner** | Estimate AI-model costs before building or scaling |
-| **[Jarvis404 Academy](https://courses.jarvis404.com/)** | Hands-on AI, coding and automation learning |
-| **Track404** | Daily productivity, task timing and fitness routines |
-| **Jarvis4H** | Emotion-aware conversational AI experiment |
-| **Relationship Assistant** | Personal reminders, preferences, shared dates and memories |
-| **Karen** | Friendly everyday AI companion |
-| **Innovate4H** | Supportive conversation and self-reflection experiment |
-| **Cryptocurrency Trading Bot** | Automated trading and market-monitoring experiment |
-| **Schedule Tracker** | Tasks, priorities and daily reminders |
+**Learning & productivity**
+
+- **AI Token Cost Planner** — estimate AI model costs before building or scaling.
+- **[Jarvis404 Academy](https://courses.jarvis404.com/)** — hands-on AI, coding and automation learning.
+- **Track404** — daily productivity, task timing and fitness routines.
+- **Schedule Tracker** — tasks, priorities and daily reminders.
+
+**Conversational AI**
+
+- **Jarvis4H** — emotion-aware conversational AI experiment.
+- **Relationship Assistant** — personal reminders, preferences, shared dates and memories.
+- **Karen** — friendly everyday AI companion.
+- **Innovate4H** — supportive conversation and self-reflection experiment.
+
+**Automation & experiments**
+
+- **Cryptocurrency Trading Bot** — automated trading and market-monitoring experiment.
 
 [Explore all projects and screenshots →](https://fawzankhan-404.github.io/#projects)
 
@@ -55,21 +59,30 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 <picture><source srcset="./visuals/ui-arsenal.gif" type="image/gif" /><img src="./visuals/ui-arsenal.svg" width="100%" alt="The Arsenal - three tomoe Sharingan" /></picture>
 
-<div align="center">
+<p align="center">
+  <a href="https://www.python.org/"><img src="./visuals/tech-icons/python.svg" width="42" height="42" alt="Python" title="Python" /></a>&nbsp;&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="./visuals/tech-icons/javascript.svg" width="42" height="42" alt="JavaScript" title="JavaScript" /></a>&nbsp;&nbsp;
+  <a href="https://en.cppreference.com/w/c"><img src="./visuals/tech-icons/c.svg" width="42" height="42" alt="C" title="C" /></a>&nbsp;&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="./visuals/tech-icons/html5.svg" width="42" height="42" alt="HTML5" title="HTML5" /></a>&nbsp;&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="./visuals/tech-icons/css3.svg" width="42" height="42" alt="CSS3" title="CSS3" /></a>&nbsp;&nbsp;
+  <a href="https://react.dev/"><img src="./visuals/tech-icons/react.svg" width="42" height="42" alt="React" title="React" /></a>&nbsp;&nbsp;
+  <a href="https://nodejs.org/"><img src="./visuals/tech-icons/nodejs.svg" width="42" height="42" alt="Node.js" title="Node.js" /></a>&nbsp;&nbsp;
+  <a href="https://firebase.google.com/"><img src="./visuals/tech-icons/firebase.svg" width="42" height="42" alt="Firebase" title="Firebase" /></a>&nbsp;&nbsp;
+  <a href="https://git-scm.com/"><img src="./visuals/tech-icons/git.svg" width="42" height="42" alt="Git" title="Git" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/"><img src="./visuals/tech-icons/github.svg" width="42" height="42" alt="GitHub" title="GitHub" /></a>&nbsp;&nbsp;
+  <a href="https://code.visualstudio.com/"><img src="./visuals/tech-icons/vscode.svg" width="42" height="42" alt="Visual Studio Code" title="Visual Studio Code" /></a>&nbsp;&nbsp;
+  <a href="https://jupyter.org/"><img src="./visuals/tech-icons/jupyter.svg" width="42" height="42" alt="Jupyter Notebook" title="Jupyter Notebook" /></a>
+</p>
 
-**Python · JavaScript · C · HTML · CSS · React · Node.js · Firebase · SQL · Git · GitHub · VS Code**
+<p align="center"><sub>TECHNOLOGIES · LOCALLY HOSTED ICONS · SELECT A LOGO TO LEARN MORE</sub></p>
 
-</div>
-
-| Area | Skills |
-|:--|:--|
-| **Programming** | Python, JavaScript, C |
-| **Frontend / Web** | HTML, CSS, React |
-| **Backend / Data** | Node.js, SQL, Firebase |
-| **AI & Automation** | LLMs, NLP, voice interfaces, intelligent automation |
-| **Developer Tools** | Git, VS Code, Jupyter Notebook |
-| **Other interests** | Data visualization, structured analysis, machine learning workflows, secure coding, network security fundamentals |
-| **Languages** | English — fluent; Roman Urdu — fluent |
+**Programming** · Python, JavaScript, C<br/>
+**Frontend** · HTML5, CSS3, React<br/>
+**Backend & data** · Node.js, SQL, Firebase<br/>
+**AI & automation** · LLMs, NLP, voice interfaces, intelligent automation<br/>
+**Developer tools** · Git, GitHub, VS Code, Jupyter Notebook<br/>
+**Areas of interest** · Data visualization, structured analysis, machine learning workflows, secure coding, network security fundamentals<br/>
+**Spoken languages** · English (fluent), Roman Urdu (fluent)
 
 <picture><source srcset="./visuals/ui-chronicle.gif" type="image/gif" /><img src="./visuals/ui-chronicle.svg" width="100%" alt="GitHub activity section" /></picture>
 
@@ -113,12 +126,10 @@ Relevant coursework: Data Structures, Algorithms, Web Development, Cybersecurity
 
 The **Jarvis404 LLM family** explores more personal AI dialogue, emotional awareness and reflective interactions through local models.
 
-| Model | Research direction | Try it |
-|:--|:--|:--|
-| **Jarvis404-llm-v01-8b** | Everyday connected dialogue | [Ollama →](https://ollama.com/fawzan/Jarvis404-llm-v01-8b) |
-| **Jarvis404-Companion-LLM-v0.2** | Companion-style dialogue and reflection | [Ollama →](https://ollama.com/fawzan/Jarvis404-companion-llmv0.2) |
-| **Jarvis404-Companion_Q8-LLM-v0.2** | Local companion model experiment | [Ollama →](https://ollama.com/fawzan/Jarvis404-companion_Q8-llmv0.2) |
-| **Friday** · *upcoming* | Next model experiment | Details after release |
+- **Jarvis404-llm-v01-8b** <sub>CONNECTED DIALOGUE</sub> · [View on Ollama →](https://ollama.com/fawzan/Jarvis404-llm-v01-8b)
+- **Jarvis404-Companion-LLM-v0.2** <sub>COMPANION & REFLECTION</sub> · [View on Ollama →](https://ollama.com/fawzan/Jarvis404-companion-llmv0.2)
+- **Jarvis404-Companion_Q8-LLM-v0.2** <sub>LOCAL MODEL EXPERIMENT</sub> · [View on Ollama →](https://ollama.com/fawzan/Jarvis404-companion_Q8-llmv0.2)
+- **Friday** <sub>UPCOMING</sub> · Next model experiment; details after release.
 
 *The Ollama links open model pages, not in-browser chat demos.*
 
