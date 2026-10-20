@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/itachi-crimson-animated.svg" alt="Itachi Uchiha — cinematic crimson autumn with animated maple leaves and atmospheric effects" width="100%" />
+<img src="./itachi-crimson-animated.svg" alt="Itachi Uchiha — cinematic crimson autumn with animated maple leaves and atmospheric effects" width="100%" />
 
 <br/>
 
