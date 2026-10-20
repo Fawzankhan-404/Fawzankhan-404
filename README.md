@@ -71,24 +71,26 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 | **Other interests** | Data visualization, structured analysis, machine learning workflows, secure coding, network security fundamentals |
 | **Languages** | English — fluent; Roman Urdu — fluent |
 
-<img src="./visuals/ui-chronicle.svg" width="100%" alt="GitHub Activity Archive - animated Mangekyo Sharingan" />
+<img src="./visuals/ui-chronicle.svg" width="100%" alt="GitHub activity section" />
 
 <div align="center">
 
-**Public contributions and repository activity**
+**Contribution activity · Updated automatically from GitHub**
 
 [**GitHub profile statistics →**](https://github.com/Fawzankhan-404)
 [**Explore repository languages →**](https://github.com/Fawzankhan-404?tab=repositories)
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution graph generated from GitHub activity" />
+<a href="https://github.com/Fawzankhan-404"><img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="GitHub contribution activity calendar and summary" /></a>
 
-<sub>Contribution visualization is generated from GitHub activity by the scheduled workflow. Visit the GitHub profile for the latest contribution counts.</sub>
+<sub>The activity artwork refreshes from GitHub GraphQL on an hourly schedule (subject to Actions and image caching). For the latest information, open the [GitHub contributions](https://github.com/Fawzankhan-404) directly.</sub>
 
 
 
 </div>
 
-<img src="./visuals/ui-journey.svg" width="100%" alt="Experience and Education - animated three tomoe Sharingan" />
+<a href="https://raw.githubusercontent.com/Fawzankhan-404/Fawzankhan-404/main/visuals/ui-journey.svg"><img src="./visuals/ui-journey.svg" width="100%" alt="Experience — animated crimson header" /></a>
+
+<sub>[Open the Experience banner directly](https://raw.githubusercontent.com/Fawzankhan-404/Fawzankhan-404/main/visuals/ui-journey.svg) if the embedded image does not load.</sub>
 
 ### Experience
 
