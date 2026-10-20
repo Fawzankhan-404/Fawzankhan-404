@@ -4,7 +4,7 @@
 
 <img src="./visuals/ui-crimson-intro.svg" width="100%" alt="Fawzan Khan - Tsukuyomi-inspired animated crimson introduction" />
 
-**AI & Software Developer · AI Integrations · Automation · Open Source**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=ED546B&center=true&vCenter=true&width=850&lines=AI+%26+Software+Developer;Building+AI+Assistants+%26+Automation;Open-Source+Developer+Tools;Learning+by+Building" alt="Animated introduction describing Fawzan's work" />
 
 *Building useful AI-powered applications, privacy-minded software and practical digital tools from Pune, India.*
 
@@ -14,7 +14,7 @@
 
 ---
 
-### A little about me
+### About Me
 
 I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Science student at Poona College, Pune (2024–2027)**. I build AI assistants, integration tools, privacy-focused communication products, learning experiences and everyday automation, with an interest in making technology genuinely useful.
 
@@ -75,7 +75,7 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 <div align="center">
 
-**GITHUB // PUBLIC ACTIVITY**
+**Public contributions and repository activity**
 
 <img src="https://github-readme-stats.vercel.app/api?username=Fawzankhan-404&show_icons=true&include_all_commits=true&hide_rank=true&theme=transparent&title_color=f16377&text_color=e7d8e2&icon_color=f16377&border_color=74263b&cache_seconds=3600" width="49%" alt="Live-source GitHub public activity statistics" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fawzankhan-404&layout=compact&theme=transparent&title_color=f16377&text_color=e7d8e2&border_color=74263b&cache_seconds=3600" width="49%" alt="GitHub language distribution based on repository contents" />
@@ -131,7 +131,7 @@ The **Jarvis404 LLM family** explores more personal AI dialogue, emotional aware
 
 <img src="./visuals/ui-training.svg" width="100%" alt="AI Training - passing the flame animated Mangekyo Sharingan" />
 
-### Jarvis404 Academy · Learning by building
+### Jarvis404 Academy
 
 I help students and beginners explore AI, programming, automation, and project building through practical training. Sessions and workshops can be adapted to colleges, institutes, and learners at different levels.
 
