@@ -95,7 +95,7 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 <a href="https://github.com/Fawzankhan-404"><img src="./profile-3d-contrib/profile-night-rainbow-83e25de2a830.svg" width="100%" alt="GitHub contribution activity calendar and summary" /></a>
 
-<sub>Public-only contribution data. An optional repository secret with GitHub’s `read:user` scope can include private and internal counts when enabled in profile settings. Updated hourly, subject to Actions and image caching. [View the live calendar](https://github.com/Fawzankhan-404).</sub>
+<sub>Monthly totals are labeled on the chart; open the linked GitHub profile calendar for exact per-day counts. Public-only contribution data. An optional repository secret with GitHub’s `read:user` scope can include private and internal counts when enabled in profile settings. Updated hourly, subject to Actions and image caching. [View the live calendar](https://github.com/Fawzankhan-404).</sub>
 
 
 

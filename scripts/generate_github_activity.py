@@ -151,7 +151,7 @@ def main():
 
     p.append(f'''<text x="38" y="464" font-family="Arial,sans-serif" font-size="9" fill="#bdaab4">Less</text>
 <rect x="68" y="456" width="9" height="9" rx="2" fill="#241a25" stroke="#513047" stroke-width=".55"/><rect x="84" y="456" width="9" height="9" rx="2" fill="#8f2945"/><rect x="100" y="456" width="9" height="9" rx="2" fill="#b72f50"/><rect x="116" y="456" width="9" height="9" rx="2" fill="#e04365"/><rect x="132" y="456" width="9" height="9" rx="2" fill="#ff6981"/>
-<text x="148" y="464" font-family="Arial,sans-serif" font-size="9" fill="#bdaab4">More daily activity · hover for exact counts</text>
+<text x="148" y="464" font-family="Arial,sans-serif" font-size="9" fill="#bdaab4">More daily activity · monthly totals are labeled above</text>
 <text x="38" y="492" font-family="Arial,sans-serif" font-size="9" fill="#9b8895">{html.escape(note)} · updated hourly</text>
 <rect x="1" y="1" width="678" height="508" rx="16" fill="none" stroke="#713044"/></g></svg>''')
     svg = "".join(p)
