@@ -93,7 +93,7 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 [**GitHub profile statistics →**](https://github.com/Fawzankhan-404)
 [**Explore repository languages →**](https://github.com/Fawzankhan-404?tab=repositories)
 
-<a href="https://github.com/Fawzankhan-404"><img src="./profile-3d-contrib/profile-night-rainbow-f50a6327de53.svg" width="100%" alt="GitHub contribution activity calendar and summary" /></a>
+<a href="https://github.com/Fawzankhan-404"><img src="./profile-3d-contrib/profile-night-rainbow-b052aad3f747.svg" width="100%" alt="GitHub contribution activity calendar and summary" /></a>
 
 <sub>Monthly totals are labeled on the chart; open the linked GitHub profile calendar for exact per-day counts. Public-only contribution data. An optional repository secret with GitHub’s `read:user` scope can include private and internal counts when enabled in profile settings. Updated hourly, subject to Actions and image caching. [View the live calendar](https://github.com/Fawzankhan-404).</sub>
 
