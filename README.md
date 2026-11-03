@@ -99,11 +99,14 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 
 
+
 </div>
+
+<picture><source srcset="./visuals/ui-education.gif" type="image/gif" /><img src="./visuals/ui-education.svg" width="100%" alt="Education - learning and academic journey" /></picture>
 
 ### Education
 
-**B.Sc. Computer Science — Poona College, Pune** · 2024–2027  
+**B.Sc. Computer Science — Poona College, Pune** · 2024–2027  \
 Relevant coursework: Data Structures, Algorithms, Web Development, Cybersecurity, Database Management.
 
 <picture><source srcset="./visuals/ui-recognition.gif" type="image/gif" /><img src="./visuals/ui-recognition.svg" width="100%" alt="Certifications and Recognition - Itachi Mangekyo Sharingan" /></picture>
