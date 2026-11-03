@@ -101,16 +101,6 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 </div>
 
-<a href="https://github.com/Fawzankhan-404/Fawzankhan-404/blob/main/visuals/ui-journey.svg"><picture><source srcset="./visuals/ui-journey.gif" type="image/gif" /><img src="./visuals/ui-journey.svg" width="100%" alt="Experience — crimson header" /></picture></a>
-
-### Experience
-
-**Software Developer — Elites Pro Academy**  
-Software development, applied AI and practical digital solutions.
-
-**Software Developer Intern — Wee Technology**  
-Software development internship.
-
 ### Education
 
 **B.Sc. Computer Science — Poona College, Pune** · 2024–2027  
