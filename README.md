@@ -102,6 +102,8 @@ I'm a software developer at **Elites Pro Academy** and a **B.Sc. Computer Scienc
 
 </div>
 
+<picture><source srcset="./visuals/ui-journey.gif" type="image/gif" /><img src="./visuals/ui-journey.svg" width="100%" alt="Career and Education - building, learning and shipping" /></picture>
+
 ### Education
 
 **B.Sc. Computer Science — Poona College, Pune** · 2024–2027  \
